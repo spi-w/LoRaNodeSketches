@@ -7,10 +7,10 @@ Contient des programmes basés sur le travail de CongducPham (LowCostLoRaGw).
 [https://github.com/CongducPham/LowCostLoRaGw](URL 'LowCostLoRaGw framework')
 
 Ce sont des programmes pour single-channel gateways.
-Cette implémentation permet une première approche avec LoRaWan. Elle permet de comprendre le déroulement globale des opérations d'un noeud. Bien que les packets peuvent être au format Lorawan et être réceptionné par une gateway Lorawan, ce n'est pas du "pur" Lorawan, car la couche MAC n'est pas implémenté/géré.
+Cette implémentation permet une première approche avec LoRaWan. Elle permet de comprendre le déroulement globale des opérations d'un noeud et permet de "prendre confiance" (finalement, on peut modifier beaucoup de choses dans le fonctionnement et pour autant avoir un noeud Lora fonctionnel). Bien que les packets peuvent être au format Lorawan et être réceptionné par une gateway Lorawan, ce n'est pas du "pur" Lorawan, car la couche MAC n'est pas implémenté/géré.
 L'ensemble des opérations réalisé lors d'un "cycle" (boucle loop()) correspond à l'implémentation d'un noeud de classe A.
 
-##Lmic directory
+## Lmic directory
 
 Contient des programmes basé sur la librairie arduino-lmic de MCCI-catena.
 [https://github.com/mcci-catena/arduino-lmic] (URL 'arduino-lmic')
